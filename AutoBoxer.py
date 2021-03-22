@@ -156,8 +156,8 @@ if(sys.argv.__len__() == 8 ):
     print('Successfully build box with parameters:')
     print(sys.argv)
 elif(sys.argv.__len__() > 1 or sys.argv.__contains__('help')):
-    print('Correct usage: python AutoBoxer.py [newFilePath] [x] [y] [z] [sheet thickness] [finger width] [laser kerf]')
-    print('example: python AutoBoxer.py newfile 100 200 300 6 10 0.2')
+    print('Correct usage: python3 AutoBoxer.py [newFilePath] [x] [y] [z] [sheet thickness] [finger width] [laser kerf]')
+    print('example: python3 AutoBoxer.py newfile 100 200 300 6 10 0.2')
 else:
     BuildBox('example',310,410,510,6.5,20,0.2)
 
