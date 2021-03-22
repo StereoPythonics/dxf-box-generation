@@ -7,7 +7,7 @@ You can check if you already have python installed by running this in your termi
 ```
 python3 --version
 ```
-Once managed to get python 3 installed you'll need to grab a few packages. I used PIP ("Pip Installs Packages") to install mine.
+Once you've managed to get python 3 installed you'll need to grab a few packages. I used PIP ("Pip Installs Packages") to install mine.
 You can check if pip is installed for python 3 my running the following:
 ```
 pip3 --version
